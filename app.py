@@ -113,7 +113,7 @@ if vista == "Plan Semanal":
                     st.success(f"¡Entreno de {dia} registrado!")
                     st.balloons()
             with c2:
-                st.button("📥 Garmin", key=f"gar_{dia}_{fase_seleccionada}")
+                st.button("📥 Enviar a mi Garmin", key=f"gar_{dia}_{fase_seleccionada}")
 
     # --- PANEL DE RESUMEN DE ESFUERZO (DISEÑO PREMIUM CON EXPLICACIONES) ---
     st.divider()
