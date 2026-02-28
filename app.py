@@ -18,55 +18,55 @@ st.markdown("""
 # --- BASE DE DATOS DE ENTRENAMIENTO ---
 datos_plan = {
     "1. Base Aeróbica (Marzo - Mayo)": {
-        "objetivo": "Construir resistencia y fortalecer ligamentos sobre la Tarmac.",
-        "intensidad": "Zona 2 (vatios bajos, cadencia alta).",
+        "objetivo": "Construir resistencia y base aeróbica estable sobre la Tarmac.",
+        "intensidad": "Zona 2 (79-108W / 55-75% FTP) con cadencia alta.",
         "entrenos": {
-            "Lunes": "Descanso Activo: Movilidad 20 min.",
-            "Martes": "Rodaje Z2: 90 min cadencia 90-95 rpm.",
-            "Miércoles": "Z2 progresiva: 2h con últimos 15 min en Z3.",
-            "Jueves": "Cadencia técnica: 60 min con intervalos de cadencia alta.",
-            "Viernes": "Rodaje suave: 45 min recuperación.",
-            "Sábado": "Fondo Largo: 3h 30m en terreno plano/ondulado.",
-            "Domingo": "Libre o caminata."
+            "Lunes": "🚫 Descanso Total: Recuperación muscular completa.",
+            "Martes": "⚙️ Rodillo Cadencia: 15' Calent. + 5x(30''/30'') Cadencia 110+ + 40' Z2 (85-95W) a 90 RPM.",
+            "Miércoles": "🧘 Descanso Activo: Caminar 30 min o estiramientos suaves.",
+            "Jueves": "🔥 Rodillo Resistencia: 15' Calent. (50-60W) + 50' Z2 estable (95-108W) a 90-95 RPM + 10' Cool down.",
+            "Viernes": "🔧 Logística: Revisar presión de llantas y CALIBRAR potenciómetro (Zero Offset).",
+            "Sábado": "🛣️ Fondo Calango: 2h 30m total. Mantener 79-108W (Z2) constante. Cadencia: 85-95 RPM (Plano) y >75 RPM (Subida).",
+            "Domingo": "🚲 Recuperación Activa: 45' rodaje muy suave (<75W), plato pequeño, cadencia >90 RPM."
         }
     },
     "2. Construcción y Fuerza (Junio - Agosto)": {
-        "objetivo": "Desarrollar potencia para ascensos de 20 km.",
-        "intensidad": "Intervalos y fortalecimiento en gimnasio (Fuerza-Resistencia).",
+        "objetivo": "Desarrollar potencia para los ascensos de 20km en Cali.",
+        "intensidad": "Zona 3 (115-130W) y trabajos de fuerza-resistencia.",
         "entrenos": {
-            "Lunes": "Gimnasio: Tren inferior (Sentadillas/Prensa).",
-            "Martes": "Intervalos de Fuerza: 4x10 min a 60 rpm en subida.",
-            "Miércoles": "Z2 Resistencia: 2h fondo.",
-            "Jueves": "Sprints de potencia: 8x30 seg al máximo.",
-            "Viernes": "Gimnasio: Core y tren superior.",
-            "Sábado": "Fondo con puertos: 4h incluyendo 2 subidas largas.",
-            "Domingo": "Descanso total."
+            "Lunes": "🚫 Descanso Total.",
+            "Martes": "💪 Fuerza en Subida: 15' Calent. + 4x8' en Zona 3 (115-130W) a 65 RPM + 10' Recup.",
+            "Miércoles": "⚙️ Rodillo Z2: 60 min constantes (90-105W) a 90 RPM.",
+            "Jueves": "⚡ Intervalos FTP: 15' Calent. + 3x10' al 95-100% FTP (138-145W) a 90 RPM + 10' Recup.",
+            "Viernes": "🧘 Descanso Activo: 40 min regenerativos (<70W).",
+            "Sábado": "🏔️ Fondo con Desnivel: 3h 30m. En subida mantener Z3 (115-130W). En plano Z2 (80-105W).",
+            "Domingo": "🚲 Recuperación Activa: 1h rodaje muy suave, cadencia libre."
         }
     },
     "3. Especialización (Septiembre - Octubre)": {
-        "objetivo": "Simular condiciones reales y el 'serrucho' final.",
-        "intensidad": "Rodajes de larga distancia (140-160 km) y nutrición.",
+        "objetivo": "Simular las condiciones reales del Giro de Rigo.",
+        "intensidad": "Simulación de carrera, ritmo alto y fondos de 140km+.",
         "entrenos": {
-            "Lunes": "Descanso activo.",
-            "Martes": "Simulacro de puerto: 2x30 min a ritmo de carrera.",
-            "Miércoles": "Rodaje tempo: 90 min en Z3.",
-            "Jueves": "Intervalos mixtos: Simulación de repechos (serrucho).",
-            "Viernes": "Rodaje suave: 60 min.",
-            "Sábado": "El Gran Fondo: 5h-6h (150 km) probando geles y sales.",
-            "Domingo": "Rodada social 90 min."
+            "Lunes": "🚫 Descanso Total.",
+            "Martes": "🏔️ Sweet Spot: 2x20' al 90% del FTP (130W) - Ritmo de subida larga en Cali.",
+            "Miércoles": "⚙️ Rodillo Z2: 70 min con 5 sprints de 10'' (>200W) para ganar explosividad.",
+            "Jueves": "📈 Picos de Potencia: 6x3' en Zona 4 (155-165W) para ataques en repechos cortos.",
+            "Viernes": "🧘 Descanso Activo.",
+            "Sábado": "🏁 Simulación Giro: 4h 30m de ruta. Entrenar nutrición (60g carbos/hora) y ritmo Z2-Z3.",
+            "Domingo": "🚲 Recuperación Activa: 1h 15m muy suave, soltar piernas."
         }
     },
-    "4. Tapering / Descarga (Últimas 2 semanas Oct)": {
-        "objetivo": "Recuperación total y asimilación del entrenamiento.",
-        "intensidad": "Bajo volumen, toques de intensidad cortos.",
+    "4. Tapering / Descarga (Últimas 2 Semanas)": {
+        "objetivo": "Llegar a Cali con frescura total y máxima energía.",
+        "intensidad": "Bajo volumen, toques cortos de intensidad para no perder ritmo.",
         "entrenos": {
-            "Lunes": "Descanso total.",
-            "Martes": "Activación: 60 min con 3 piques de 1 min.",
-            "Miércoles": "Rodaje muy suave: 45 min.",
-            "Jueves": "Activación corta: 45 min cadencia alta.",
-            "Viernes": "Descanso total.",
-            "Sábado": "Rodada previa: 60 min planos.",
-            "Domingo": "🏁 DÍA DEL GIRO DE RIGO 🚴‍♂️"
+            "Lunes": "🚫 Descanso Total.",
+            "Martes": "🚀 Activación: 40' Z2 con 3 picos de 1' a 145W (ritmo carrera) para despertar el cuerpo.",
+            "Miércoles": "🧘 Movilidad y relax profundo.",
+            "Jueves": "🔧 Ajuste Final: 30' muy suaves (<70W). Comprobar maleta, Tarmac y sensores.",
+            "Viernes": "✈️ Viaje a Cali / Carga de carbohidratos (Pasta/Arroz).",
+            "Sábado": "🚲 Reconocimiento: 20' muy suaves en Cali. Calibrar potenciómetro con el calor de allá.",
+            "Domingo": "🏆 EVENTO: GIRO DE RIGO CALI (150km). ¡A aplicar lo entrenado!"
         }
     }
 }
